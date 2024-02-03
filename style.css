@@ -1,0 +1,174 @@
+@import url(https://db.onlinewebfonts.com/c/c108d9f65bbf96412a067336eb5934d3?family=Good+Timing+W00+Regular);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Good Timing W00 Regular";
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#D3430D, #F68A06);;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+  
+.countdown {
+  border: 10px solid #ffffff;
+  background: #ffffff url(https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/UTSA_Athletics_logo.svg/1200px-UTSA_Athletics_logo.svg.png) center center/cover no-repeat;
+  background-color: darkorange;
+  border: 10px solid #0c2340;
+  text-align: center;
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  position: static;
+  
+}
+
+
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+*/
+/* Nav */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #333;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+h1 {
+  color: #0c2340;
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  margin-bottom: 1.5rem;
+  margin-right: 5rem;
+  list-style-type: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+li span{
+  display: block;
+  font-size: 6rem;
+  color: none;
+}
+
+li.separator {
+  margin: 0 5px;
+  font-size: 6rem;
+  line-height: 1;
+  justify-content: center;
+  align-items: center;
+  color: none;
+}
+
+li:first-of-type {
+  margin-right: 5rem;
+}
+
+/* Social Links */
+.facebook {
+  position:fixed;
+  bottom: 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+/* Social Links */
+.instagram {
+  position: relative;
+  bottom: 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Social Links */
+.twitter {
+  position: relative;
+  bottom: 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.facebook a{
+  color: #3b5998;
+  font-size: 2rem;
+}
+
+.twitter a{
+  color: #1DA1F2;
+  font-size: 2rem;
+}
+
+.instagram a{
+  color:magenta;
+  font-size: 2rem;
+}
